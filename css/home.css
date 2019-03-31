@@ -1,0 +1,151 @@
+body {
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-transform: capitalize;
+}
+/*Navigation Bar*/
+.link img{
+	width: 25px;
+}
+
+.log{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.navg {
+	width:80%;
+	padding: 40px;
+}
+
+.navg ul li {
+	float: left;
+	list-style-type: none;
+	margin-right: 4%;
+	margin-left: 2%;
+	font-size: 20px;
+}
+
+.navg ul li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-weight: bold;
+}
+
+.navg ul li a:hover {
+	color: #F60;
+}
+
+.navi{
+	display: -webkit-box;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo{
+	padding: 10px;
+}
+
+header {
+	clear: both;
+	width: 98%;
+	text-align: right;
+	background-color: black;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 3px;
+}
+
+input{
+	border:1px solid black;
+	border-radius:40px;
+	width:250px;
+	height:21px;
+	margin-left:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style:italic;
+	outline:none;
+	padding:3px;
+}
+
+button{
+	/*display:inline-block;*/
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10px;
+	width:75px;
+	height: 30px;
+	background-color:white;
+	border:none;
+	border:3px solid black;
+	border-radius:40px;
+	position: relative;
+	font-size:16px;
+	font-weight: bold;
+	margin: 0px;
+	outline:none;
+}
+/*main area*/
+.top_rated{
+	margin: auto;
+	width: 90%;
+	max-width: 1920px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.topimg{
+	margin: auto;
+  width: 90%;
+  padding-bottom: 40px;
+	text-align: center;
+}
+
+.top_rated_hosp{
+margin:auto;
+margin-top: 10px;
+border:2px solid #808080;
+border-radius: 2px;
+padding: 12px;
+text-align: center;
+}
+
+.top_rated_hosp img{
+	height: auto;
+}
+
+.go_left{
+	display: inline-block;
+	margin-left:10%;
+	margin:15px;
+}
+
+.top_rated_hosp p{
+	color:black;
+}
+
+.timg{
+	margin: auto;
+    width: 79%;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+footer {
+	clear: both;
+	width: 98%;
+	text-align: center;
+	color: white;
+	background-color: black;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 3px;
+}

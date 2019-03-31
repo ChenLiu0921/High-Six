@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>High Five Health</title>
+<link href="css/hospital.css" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script>
+       function changeImg(evt) {
+           evt.preventDefault()
+           var a=myform.uname.value;
+           if(a=="PA Hospital") {
+               var obj = document.getElementById("bbb");
+               if (obj.src.match("images/searchPA.png")) {
+                   obj.src = "images/searchPA.png";
+               }else{
+                   obj.src = "images/searchPA.png"
+               }
+           }
+           else{
+               window.location.href="searchfail.html";
+           }
+
+       }
+   </script>
+</head>
+<body>
+  <header>
+    <div class="link">
+      <div class="form">
+        <input type="text" name="uname" placeholder="  Find your services here...">
+        <button id ="btn" onclick="changeImg(event)" value="SEARCH">Search</button>
+      </div>
+      <a class = "log" href="login.html">
+        <img src="https://i.imgur.com/oZfpJS0.png" alt="login"/> Log In
+      </a>
+      <a class = "log" href="sign_up.php">
+        <img src="https://farm1.staticflickr.com/933/39857309810_3ecc814f9d_z.jpg" alt="signup"/> Sign Up
+      </a>
+      <br>
+    </div>
+  </header>
+  <br>
+  <div class="navi">
+    <div class="logo">
+      <a href="index.html" style="text-decoration:none;"><img src="https://i.imgur.com/UrhCoqa.png" width="250" height="80" /></a>
+    </div>
+    <div class="navg">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="search.html">SEARCH</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="servicelist.html">SERVICE LIST</a></li>
+      </ul>
+    </div>
+  </div>
+
+   <div class ="list">
+     <h2> Hospitals & Clinics </h2>
+      <ul>
+        <li><a href="pahospital.html">PA Hospital</a></li>
+        <li><a href="masterhospital.html">Master Hospital</a></li>
+        <li><a href="thewesleyhospital.html">The Wesley Hospital</a></li>
+        <li><a href="details.html">Blackall Hospital</a></li>
+        <li><a href="details.html">Hervey Bay Hospital</a></li>
+        <li><a href="details.html">Logan Hospital</a></li>
+        <li><a href="details.html">Moura Hospital</a></li>
+        <li><a href="details.html">Roma Hospital</a></li>
+        <li><a href="details.html">Mitchell Hospital</a></li>
+        <li><a href="details.html">Nambour Hospital</a></li>
+        <li><a href="details.html">Quilpie Hospital</a></li>
+        <li><a href="details.html">Robina Hospital</a></li>
+        <li><a href="details.html">St George Hospital</a></li>
+        <li><a href="details.html">Tara Health Service</a></li>
+        <li><a href="details.html">Tully Hospital</a></li>
+        <li><a href="details.html">Weipa Hospital</a></li>
+        <li><a href="details.html">Rockhampton Community and Public Health Service</a></li>
+        <li><a href="details.html">Mungindi Hospital</a></li>
+        <li><a href="details.html">Kingaroy Health Service</a></li>
+        <li><a href="details.html">Ipswich Health Plaza</a></li>
+      </ul>
+    <h2> Onlie Services </h2>
+      <ul>
+        <li><a href="dermacompare.html">Derma Compare</a></li>
+        <li><a href="firstderm.html">First Derm</a></li>
+        <li><a href="dermatologist.html">Dermatologist</a></li>
+        <li><a href="details.html">Everyday Health</a></li>
+        <li><a href="details.html">HealthTap</a></li>
+        <li><a href="details.html">Patient Fusion</a></li>
+        <li><a href="details.html">PatientsLikeMe</a></li>
+        <li><a href="details.html">Caring.com</a></li>
+        <li><a href="details.html">HealthDirect</a></li>
+        <li><a href="details.html">MDLIVE</a></li>
+        <li><a href="details.html">Teladoc</a></li>
+        <li><a href="details.html">AMERICANWELL</a></li>
+        <li><a href="details.html">DrDoctor</a></li>
+        <li><a href="details.html">ThisAmericanDOC</a></li>
+        <li><a href="details.html">USARAD.com</a></li>
+        <li><a href="details.html">LiveHealth</a></li>
+        <li><a href="details.html">ConsultADoctor</a></li>
+        <li><a href="details.html">AmeriDoc</a></li>
+        <li><a href="details.html">2ND.MD</a></li>
+        <li><a href="details.html">MeMD</a></li>
+      </ul>
+   </div>
+
+
+   <footer>
+   <p>Copyright (c) High Five Health</p>
+   </footer>
+   </body>
+   </html>

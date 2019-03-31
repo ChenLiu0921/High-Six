@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>High Five Health</title>
+<link href="css/home.css" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <div class="link">
+      <div class="form">
+        <input type="text" name="uname" placeholder="  Find your services here...">
+        <button id ="btn" onclick="changeImg(event)" value="SEARCH">Search</button>
+      </div>
+      <a class = "log" href="login.html">
+        <img src="https://i.imgur.com/oZfpJS0.png" alt="login"/> Log In
+      </a>
+      <a class = "log" href="sign_up.php">
+        <img src="https://farm1.staticflickr.com/933/39857309810_3ecc814f9d_z.jpg" alt="signup"/> Sign Up
+      </a>
+      <br>
+    </div>
+  </header>
+  <br>
+  <div class="navi">
+    <div class="logo">
+      <a href="index.html" style="text-decoration:none;"><img src="https://i.imgur.com/UrhCoqa.png" width="250" height="80" /></a>
+    </div>
+    <div class="navg">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="search.html">SEARCH</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="servicelist.html">SERVICE LIST</a></li>
+      </ul>
+    </div>
+  </div>
+<!--main area of index page-->
+  <div class = "topimg">
+    <a href ="about.html"><img src="https://farm1.staticflickr.com/972/39995673270_bc9dfe981a_z.jpg" width="80%" class= "timg"></a>
+  </div>
+
+  <div class='top_rated'>
+    <div style="float:left">Top Rated Hospitals </div>
+    <div style="float:right">
+      <a href="servicelist.html" style="text-decoration:none;color:black;">+ 300 More Rated Hospitals</a>
+    </div>
+    <br>
+    <div class='top_rated_hosp'>
+      <div class="go_left"><a href="mater.html" style="text-decoration:none;"><img  src="https://farm1.staticflickr.com/825/41801673271_ed1f3bb7b4_z.jpg" width="250" height="150"><p>Mater Hospital</p></a></div>
+      <div class="go_left"><a href="wesley.html" style="text-decoration:none;"><img  src="https://farm1.staticflickr.com/904/41084755264_abb34d81d8_z.jpg" width="250" height="150"><p>The Wesley Hospital</p></a></div>
+      <div class="go_left"><a href="details.html" style="text-decoration:none;"><img  src="https://farm1.staticflickr.com/831/41801670831_6e93d695a0_z.jpg" width="250" height="150"><p>PA Hospital</p></a></div>
+    </div>
+  </div>
+  <div class='top_rated'>
+    <div style="float:left">Top Rated Online Services </div>
+    <div style="float:right">
+      <a href="servicelist.html" style="text-decoration:none;color:black;">+500 More Rated Onlie Services</a>
+    </div>
+    <br>
+    <div class='top_rated_hosp' >
+      <div class="go_left">
+        <a href="details.html" style="text-decoration:none;"><img  src="https://farm1.staticflickr.com/978/41084756864_c1085692e4_z.jpg" width="250" height="150"><p>Derma Compares</p></a>
+      </div>
+      <div class="go_left">
+        <a href="details.html" style="text-decoration:none;"><img  src="https://farm1.staticflickr.com/945/41084756194_2a02445804_z.jpg" width="250" height="150"><p>First Derm</p></a>
+      </div>
+      <div class="go_left">
+        <a href="details.html" style="text-decoration:none;"><img  src="https://farm1.staticflickr.com/957/41760073152_9b5f679a07_z.jpg" width="250" height="150"><p>Dermatologist</p></a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Copyright (c) High Five Health</p>
+  </footer>
+</body>
+<script>
+function changeImg(evt) {
+  evt.preventDefault()
+  var a=myform.uname.value;
+  if(a=="PA Hospital") {
+    window.location.href="search1.html";
+  }
+  else{
+    window.location.href="searchfail.html";
+  }
+}
+</script>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>High Five Health</title>
+<link href="css/servicesearch.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <script language="JavaScript" type="text/javascript">
+  function success(){
+     alert("The submition is successful!");
+     window.location.href="index.html";
+  }
+  </script>
+  <header>
+    <div class="link">
+      <div class="form">
+        <input type="text" name="uname" placeholder="  Find your services here...">
+        <button id ="btn" onclick="changeImg(event)" value="SEARCH">Search</button>
+      </div>
+      <a class = "log" href="login.html">
+        <img src="https://i.imgur.com/oZfpJS0.png" alt="login"/> Log In
+      </a>
+      <a class = "log" href="sign_up.php">
+        <img src="https://farm1.staticflickr.com/933/39857309810_3ecc814f9d_z.jpg" alt="signup"/> Sign Up
+      </a>
+      <br>
+    </div>
+  </header>
+  <br>
+  <div class="navi">
+    <div class="logo">
+      <a href="index.html" style="text-decoration:none;"><img src="https://i.imgur.com/UrhCoqa.png" width="250" height="80" /></a>
+    </div>
+    <div class="navg">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="search.html">SEARCH</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="servicelist.html">SERVICE LIST</a></li>
+      </ul>
+    </div>
+  </div>
+   <div class="servicesubmit">
+     <div class="goleft">
+     <p>Thank for your help!</p>
+     <p>Please fill out the following form.</p>
+         Service Name :<br>
+         <input type="text" name="servicename"><br>
+         Address(Optional):<br>
+         <input type="text" name="serviceaddress"><br>
+         Website:<br>
+         <input type="text" name="serviceweb"><br>
+         Phone:<br>
+         <input type="text" name="servicephone"><br>
+         Hours:<br>
+         <input type="text" name="servicehours"><br>
+       </div>
+         <button class="button" onclick=success()>Submit</button>
+    </div>
+
+<!--a href ="form.html" target="_blank" ><img  class="search" src="images/search2.png"></a>
+-->
+
+
+<footer>
+<p>Copyright (c) High Five Health</p>
+</footer>
+</body>
+</html>
